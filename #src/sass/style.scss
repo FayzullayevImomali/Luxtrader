@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,600&family=Roboto:wght@400;500&display=swap');
+
+@import 'header';
+@import 'mainSlider';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PFDin-r', sans-serif;
+}
+
+
+
+//<ПЕРЕМЕННЫЕ=========================================================================================
+$minwidth: 320px;
+$mv: 950px;
+$md1: $mv + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+$hederColor : #1c242a;
+//<ПЕРЕМЕННЫЕ=========================================================================================
+
+@import 'font';
+
+
+
+
+
+
+
+
+
+
+
+
+
+

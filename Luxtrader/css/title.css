@@ -1,0 +1,52 @@
+.title__next {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: "PTSans-r",sans-serif;
+  line-height: 25/15;
+}
+
+.item-main-slider__container .title__item {
+  font-family: "ceremonious",sans-serif;
+  color: #bb9c66;
+  font-size: 2.5rem;
+}
+
+.item-main-slider__container .title__main {
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: .313rem;
+  padding: 23px 0 27px 0;
+}
+
+@media (max-width: 785px) {
+  .item-main-slider__container .title__main {
+    font-size: 1.3rem;
+    padding: 1.5rem 0 .5rem 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .item-main-slider__container .title__item {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 268px) {
+  .item-main-slider__container .title__item {
+    font-size: 1.1rem;
+    font-family: "ceremonious",sans-serif;
+  }
+
+  .item-main-slider__container .title__main {
+    font-size: 1rem;
+  }
+
+  .title__next {
+    font-size: .75rem;
+  }
+}

@@ -47,6 +47,73 @@
         
     </main>
 
+    <div class="form-input">
+        <h2>File form</h2>
+        <form action="" method="">
+           <label for="avatar">Avatar</label>
+           <input type="file" name="avatar" accept="image/png, image/jpeg, image/jpg">
+           <button type="submit">Send</button>
+        </form>
+
+        <h2>Color Form</h2>
+        <form action="" post="" >
+            <input type="color" name="color" value="#fe89" value="18" step="2">
+            <label for="color">Select color</label>
+        </form>
+
+        <h2>Numbers Form</h2>
+        <form action="">
+            <label for="age">Age</label>
+            <input type="number" placeholder="your age" min="18" max="50">
+        </form>
+
+        <h2>Selected Form</h2>
+        <form action="">
+            <label for="phone"Choose your phone:></label>
+            <select name="phone" id="phone">
+                <option value="">--Your phone--</option>
+                <option value="apple">Apple</option>
+                <option value="samsung" selected>Samsung</option>
+                <option value="nokia">Nokia</option>
+                <option value="redmi-note-10" disabled>Redmi-note-10</option>
+            </select>
+        </form>
+
+        <h2>Checkbox Form</h2>
+        <form action="">
+            <label for="checkbox1">Yes</label>
+            <input type="checkbox" name="checkbox1">
+            <label for="checkbox2">No</label>
+            <input type="checkbox" name="checkbox2" checked>
+            <label for="checkbox3">Both</label>
+            <input type="checkbox" name="checkbox3">
+        </form>
+
+        <h2>Radio Form</h2>
+        <form action="">
+            <input type="radio" name="radio" checked>
+            <label for="radio">Agree</label>
+            <input type="radio" name="radio">
+            <label for="radio">Not Agree</label>
+        </form>
+
+        <h2>Slider Form</h2>
+        <form action="">
+            <input type="range" name="volume" id="volume" step="5" value="15">
+            <output class="volume-output"></output>
+        </form>
+    </div>
+
+    <script>
+        const volume = document.querySelector('#volume');
+        const output = document.querySelector('.volume-output');
+
+        volume.addEventListener('input', ()=> {
+            output.textContent = volume.value;
+        });
+    </script>
+
+
     
 
     <script src="js/script.js"></script>

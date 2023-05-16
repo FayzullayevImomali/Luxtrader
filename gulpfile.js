@@ -22,7 +22,7 @@ let path = {
         js: source_folder + "/js/*.js",
         fonts: source_folder + "/fonts/*.ttf",
         img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
-        icons: source_folder + "/icons/**/*.{jpg,png,svg,gif,ico,webp}"
+        icons: source_folder + "/icons/**/*.{jpg,png,svg,gif,ico}"
     },
 
     watch: {

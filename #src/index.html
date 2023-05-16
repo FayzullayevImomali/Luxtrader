@@ -37,83 +37,25 @@
             <div class="square">
                 <div class="rotated">
                     <div class="not-rotate">
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
+                        <div class="box prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#bb9c66" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+                        </div>
+                        <div class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#bb9c66" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </div>
+        <section class="popular">
+            <div class="title">
+                <div class="title__item popular__title">Популярные</div>
+                <div class="title__main black__font">лоты Под аукцион</div>
+            </div>
+        </section>
         
     </main>
-
-    <div class="form-input">
-        <h2>File form</h2>
-        <form action="" method="">
-           <label for="avatar">Avatar</label>
-           <input type="file" name="avatar" accept="image/png, image/jpeg, image/jpg">
-           <button type="submit">Send</button>
-        </form>
-
-        <h2>Color Form</h2>
-        <form action="" post="" >
-            <input type="color" name="color" value="#fe89" value="18" step="2">
-            <label for="color">Select color</label>
-        </form>
-
-        <h2>Numbers Form</h2>
-        <form action="">
-            <label for="age">Age</label>
-            <input type="number" placeholder="your age" min="18" max="50">
-        </form>
-
-        <h2>Selected Form</h2>
-        <form action="">
-            <label for="phone"Choose your phone:></label>
-            <select name="phone" id="phone">
-                <option value="">--Your phone--</option>
-                <option value="apple">Apple</option>
-                <option value="samsung" selected>Samsung</option>
-                <option value="nokia">Nokia</option>
-                <option value="redmi-note-10" disabled>Redmi-note-10</option>
-            </select>
-        </form>
-
-        <h2>Checkbox Form</h2>
-        <form action="">
-            <label for="checkbox1">Yes</label>
-            <input type="checkbox" name="checkbox1">
-            <label for="checkbox2">No</label>
-            <input type="checkbox" name="checkbox2" checked>
-            <label for="checkbox3">Both</label>
-            <input type="checkbox" name="checkbox3">
-        </form>
-
-        <h2>Radio Form</h2>
-        <form action="">
-            <input type="radio" name="radio" checked>
-            <label for="radio">Agree</label>
-            <input type="radio" name="radio">
-            <label for="radio">Not Agree</label>
-        </form>
-
-        <h2>Slider Form</h2>
-        <form action="">
-            <input type="range" name="volume" id="volume" step="5" value="15">
-            <output class="volume-output"></output>
-        </form>
-    </div>
-
-    <script>
-        const volume = document.querySelector('#volume');
-        const output = document.querySelector('.volume-output');
-
-        volume.addEventListener('input', ()=> {
-            output.textContent = volume.value;
-        });
-    </script>
-
-
     
 
     <script src="js/script.js"></script>
